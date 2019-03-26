@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-       "layer0": "tm:items/tristonium_ingot"
+       "layer0": "tmod:items/tristonium_ingot"
    }
 }

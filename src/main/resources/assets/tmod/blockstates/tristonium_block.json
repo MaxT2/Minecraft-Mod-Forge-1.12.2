@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "tm:tristonium_block" }
+        "normal": { "model": "tmod:tristonium_block" }
     }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "tm:tristonium_ore" }
+        "normal": { "model": "tmod:tristonium_ore" }
     }
 }

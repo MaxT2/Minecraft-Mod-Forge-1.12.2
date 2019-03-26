@@ -1,7 +1,7 @@
 {
    "parent": "item/generated",
    "textures": {
-       "layer0": "tm:items/tutorial_ingot"
+       "layer0": "tmod:items/tutorial_ingot"
    }
 }
 

@@ -1,9 +1,11 @@
 package com.tristen.mod.blocks;
 
-import com.ew.tutorialmod.Main;
-import com.ew.tutorialmod.init.ModBlocks;
-import com.ew.tutorialmod.init.ModItems;
-import com.ew.tutorialmod.util.IHasModel;
+
+
+import com.tristen.mod.TmodMain;
+import com.tristen.mod.init.ModBlocks;
+import com.tristen.mod.init.ModItems;
+import com.tristen.mod.util.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,7 +20,7 @@ public class BlockBase extends Block implements IHasModel{
 		super(material); // call super method
 		setUnlocalizedName(name); //set unlocalized name
 		setRegistryName(name); // set registry name
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS); // set creative tab
+		setCreativeTab(TmodMain.TRISTONIUM_TAB); // set creative tab
 		
 		ModBlocks.BLOCKS.add(this); // have to add to blocks list
 		// blocks have to be both a block and an item
@@ -28,7 +30,7 @@ public class BlockBase extends Block implements IHasModel{
 
 	@Override
 	public void registerModels() {
-		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		TmodMain.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 		
 	}
 	

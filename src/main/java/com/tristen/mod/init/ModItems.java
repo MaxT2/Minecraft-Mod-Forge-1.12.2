@@ -3,8 +3,8 @@ package com.tristen.mod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ew.tutorialmod.items.ItemBase;
-import com.ew.tutorialmod.items.tools.ToolSword;
+import com.tristen.mod.items.tools.ToolSword;
+import com.tristen.mod.items.ItemBase;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;

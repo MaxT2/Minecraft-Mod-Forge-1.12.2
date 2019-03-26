@@ -12,13 +12,13 @@
     {
         "I":
         {
-            "item": "tm:tristonium_ingot"
+            "item": "tmod:tristonium_ingot"
         }
     },
     
     "result":
     {
-        "item": "tm:tristonium_block",
+        "item": "tmod:tristonium_block",
         "count": 1
     }
 }

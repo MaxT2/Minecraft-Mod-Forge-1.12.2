@@ -1,6 +1,6 @@
 {
    "parent": "block/cube_all",
    "textures": {
-       "all": "tm:blocks/tristonium_block"
+       "all": "tmod:blocks/tristonium_block"
    }
 }

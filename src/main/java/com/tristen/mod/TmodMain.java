@@ -11,14 +11,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import org.apache.logging.log4j.Logger;
 
-import com.ew.tutorialmod.init.ModSmelting;
-import com.ew.tutorialmod.proxy.CommonProxy;
-import com.ew.tutorialmod.tabs.TutorialTab;
-import com.ew.tutorialmod.util.Reference;
+import com.tristen.mod.util.Reference;
+import com.tristen.mod.init.ModSmelting;
+import com.tristen.mod.proxy.CommonProxy;
 import com.tristen.mod.tabs.TristoniumTab;
 import com.tristen.mod.world.ModWorldGen;
 
-@Mod(modid = "tmod", name = "T's Mod", version = Reference.VERSION)
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class TmodMain
 {
 	//global variables

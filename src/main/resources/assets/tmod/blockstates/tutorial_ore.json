@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": { "model": "tm:tutorial_ore" }
+        "normal": { "model": "tmod:tutorial_ore" }
     }
 }
 
