@@ -1,4 +1,4 @@
-package com.maxt2.tmod;
+package com.tristen.mod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
