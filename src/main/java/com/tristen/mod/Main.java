@@ -18,13 +18,12 @@ import com.ew.tutorialmod.tabs.TutorialTab;
 import com.ew.tutorialmod.util.Reference;
 import com.ew.tutorialmod.world.ModWorldGen;
 
-@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = "tmod", name = "T's Mod", version = Reference.VERSION)
 public class Main
 {
 	//global variables
-	// first things kids should do is make a creative tab for their mod!
-//	public static final CreativeTabs TRISTONIUM_TAB = new TristoniumTab("tristoniumtab");
-	public static final CreativeTabs TUTORIAL_TAB = new TutorialTab("TutorialModTab");
+	// custom creative tabs
+	public static final CreativeTabs TRISTONIUM_TAB = new TristoniumTab("tristoniumtab");
 	
 	
 	
