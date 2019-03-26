@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 import com.ew.tutorialmod.init.ModSmelting;
 import com.ew.tutorialmod.proxy.CommonProxy;
 import com.ew.tutorialmod.tabs.TristoniumTab;
+import com.ew.tutorialmod.tabs.TutorialTab;
 import com.ew.tutorialmod.util.Reference;
 import com.ew.tutorialmod.world.ModWorldGen;
 
@@ -21,7 +22,9 @@ import com.ew.tutorialmod.world.ModWorldGen;
 public class Main
 {
 	//global variables
-	public static final CreativeTabs TRISTONIUM_TAB = new TristoniumTab("tristoniumtab");
+	// first things kids should do is make a creative tab for their mod!
+//	public static final CreativeTabs TRISTONIUM_TAB = new TristoniumTab("tristoniumtab");
+	public static final CreativeTabs TUTORIAL_TAB = new TutorialTab("TutorialModTab");
 	
 	
 	
