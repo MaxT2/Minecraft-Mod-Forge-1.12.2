@@ -1,6 +1,6 @@
-package com.maxt2.tutorialmod.tabs;
+package com.ew.tutorialmod.tabs;
 
-import com.maxt2.tutorialmod.init.ModItems;
+import com.ew.tutorialmod.init.ModItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;

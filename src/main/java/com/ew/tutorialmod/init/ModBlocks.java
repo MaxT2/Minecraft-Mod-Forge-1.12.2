@@ -1,12 +1,12 @@
-package com.maxt2.tutorialmod.init;
+package com.ew.tutorialmod.init;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.maxt2.tutorialmod.blocks.BlockBase;
-import com.maxt2.tutorialmod.blocks.TristoniumBlock;
-import com.maxt2.tutorialmod.blocks.TristoniumOre;
-import com.maxt2.tutorialmod.blocks.TutorialOre;
+import com.ew.tutorialmod.blocks.BlockBase;
+import com.ew.tutorialmod.blocks.TristoniumBlock;
+import com.ew.tutorialmod.blocks.TristoniumOre;
+import com.ew.tutorialmod.blocks.TutorialOre;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

@@ -1,11 +1,11 @@
-package com.maxt2.tutorialmod.blocks;
+package com.ew.tutorialmod.blocks;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class TutorialOre extends BlockBase {
+public class TristoniumOre extends BlockBase {
 
-	public TutorialOre(String name, Material material) {
+	public TristoniumOre(String name, Material material) {
 		super(name, material);
 		
 		setSoundType(SoundType.METAL);

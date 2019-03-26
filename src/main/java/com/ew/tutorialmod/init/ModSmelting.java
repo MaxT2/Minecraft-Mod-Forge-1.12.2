@@ -1,4 +1,4 @@
-package com.maxt2.tutorialmod.init;
+package com.ew.tutorialmod.init;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;

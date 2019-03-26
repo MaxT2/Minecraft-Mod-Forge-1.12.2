@@ -1,8 +1,8 @@
-package com.maxt2.tutorialmod.world;
+package com.ew.tutorialmod.world;
 
 import java.util.Random;
 
-import com.maxt2.tutorialmod.init.ModBlocks;
+import com.ew.tutorialmod.init.ModBlocks;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;

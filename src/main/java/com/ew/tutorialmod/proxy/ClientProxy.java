@@ -1,4 +1,4 @@
-package com.maxt2.tutorialmod.proxy;
+package com.ew.tutorialmod.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

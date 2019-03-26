@@ -1,10 +1,10 @@
-package com.maxt2.tutorialmod.init;
+package com.ew.tutorialmod.init;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.maxt2.tutorialmod.items.ItemBase;
-import com.maxt2.tutorialmod.items.tools.ToolSword;
+import com.ew.tutorialmod.items.ItemBase;
+import com.ew.tutorialmod.items.tools.ToolSword;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;

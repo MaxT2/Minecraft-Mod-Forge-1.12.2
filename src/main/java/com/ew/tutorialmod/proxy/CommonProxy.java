@@ -1,4 +1,4 @@
-package com.maxt2.tutorialmod.proxy;
+package com.ew.tutorialmod.proxy;
 
 import net.minecraft.item.Item;
 

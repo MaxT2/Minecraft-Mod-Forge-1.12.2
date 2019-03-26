@@ -1,8 +1,8 @@
-package com.maxt2.tutorialmod.util.handlers;
+package com.ew.tutorialmod.util.handlers;
 
-import com.maxt2.tutorialmod.init.ModBlocks;
-import com.maxt2.tutorialmod.init.ModItems;
-import com.maxt2.tutorialmod.util.IHasModel;
+import com.ew.tutorialmod.init.ModBlocks;
+import com.ew.tutorialmod.init.ModItems;
+import com.ew.tutorialmod.util.IHasModel;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

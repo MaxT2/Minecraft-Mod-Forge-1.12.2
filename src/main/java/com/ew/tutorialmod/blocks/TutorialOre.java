@@ -1,17 +1,17 @@
-package com.maxt2.tutorialmod.blocks;
+package com.ew.tutorialmod.blocks;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class TristoniumBlock extends BlockBase {
+public class TutorialOre extends BlockBase {
 
-	public TristoniumBlock(String name, Material material) {
+	public TutorialOre(String name, Material material) {
 		super(name, material);
 		
 		setSoundType(SoundType.METAL);
 		setHardness(5.0F);
 		setHarvestLevel("pickaxe", 3);
-//		setLightLevel(1.0F);
+		setLightLevel(0.1F);
 		setResistance(15.0F);
 		//setLightOpacity(1);
 		//setBlockUnbreakable();

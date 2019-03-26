@@ -1,4 +1,4 @@
-package com.maxt2.tutorialmod.util;
+package com.ew.tutorialmod.util;
 
 
 public interface IHasModel {

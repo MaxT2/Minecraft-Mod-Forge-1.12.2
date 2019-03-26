@@ -1,6 +1,6 @@
-package com.maxt2.tutorialmod.items;
+package com.ew.tutorialmod.items;
 
-import com.maxt2.tutorialmod.util.IHasModel;
+import com.ew.tutorialmod.util.IHasModel;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

@@ -1,10 +1,4 @@
-package com.maxt2.tutorialmod;
-
-import com.maxt2.tutorialmod.init.ModSmelting;
-import com.maxt2.tutorialmod.proxy.CommonProxy;
-import com.maxt2.tutorialmod.tabs.TristoniumTab;
-import com.maxt2.tutorialmod.util.Reference;
-import com.maxt2.tutorialmod.world.ModWorldGen;
+package com.ew.tutorialmod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +10,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import org.apache.logging.log4j.Logger;
+
+import com.ew.tutorialmod.init.ModSmelting;
+import com.ew.tutorialmod.proxy.CommonProxy;
+import com.ew.tutorialmod.tabs.TristoniumTab;
+import com.ew.tutorialmod.util.Reference;
+import com.ew.tutorialmod.world.ModWorldGen;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main
