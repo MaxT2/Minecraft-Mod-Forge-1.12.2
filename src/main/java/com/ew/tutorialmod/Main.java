@@ -13,10 +13,9 @@ import org.apache.logging.log4j.Logger;
 
 import com.ew.tutorialmod.init.ModSmelting;
 import com.ew.tutorialmod.proxy.CommonProxy;
-import com.ew.tutorialmod.tabs.TristoniumTab;
 import com.ew.tutorialmod.tabs.TutorialTab;
 import com.ew.tutorialmod.util.Reference;
-import com.ew.tutorialmod.world.ModWorldGen;
+//import com.ew.tutorialmod.world.ModWorldGen;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Main
@@ -39,7 +38,7 @@ public class Main
     public void PreInit(FMLPreInitializationEvent event)
     {
 
-    	GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+//    	GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
 
     @EventHandler

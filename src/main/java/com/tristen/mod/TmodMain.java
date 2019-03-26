@@ -13,13 +13,13 @@ import org.apache.logging.log4j.Logger;
 
 import com.ew.tutorialmod.init.ModSmelting;
 import com.ew.tutorialmod.proxy.CommonProxy;
-import com.ew.tutorialmod.tabs.TristoniumTab;
 import com.ew.tutorialmod.tabs.TutorialTab;
 import com.ew.tutorialmod.util.Reference;
-import com.ew.tutorialmod.world.ModWorldGen;
+import com.tristen.mod.tabs.TristoniumTab;
+import com.tristen.mod.world.ModWorldGen;
 
 @Mod(modid = "tmod", name = "T's Mod", version = Reference.VERSION)
-public class Main
+public class TmodMain
 {
 	//global variables
 	// custom creative tabs
@@ -28,7 +28,7 @@ public class Main
 	
 	
 	@Instance
-	public static Main instance;
+	public static TmodMain instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
