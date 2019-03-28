@@ -1,7 +1,5 @@
 package com.tristen.mod.tabs;
 
-import com.ew.tutorialmod.init.ModItems;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

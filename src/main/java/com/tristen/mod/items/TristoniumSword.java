@@ -1,16 +1,11 @@
 package com.tristen.mod.items;
 
-import com.ew.tutorialmod.util.IHasModel;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
-import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
-import net.minecraftforge.client.event.GuiScreenEvent.PotionShiftEvent;
-import scala.reflect.api.Positions;
 
 public class TristoniumSword extends ItemSword{
 
